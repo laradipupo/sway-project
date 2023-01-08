@@ -1,0 +1,831 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(220, 244, 245);
+}
+/* div.curve{
+     background-color: rgb(243, 242, 242);
+} */
+/* div.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
+div.nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.navbar{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+div.navbar-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.logo{
+    width: 7%;
+}
+div.logo-main{
+    width: 100%;
+}
+div.logo-main>img{
+    width: 100%;
+}
+div.nav-links{
+    width: 75%;
+    display: flex;
+    justify-content: right;
+}
+div.nav-links-main{
+    width: 80%;
+    display: flex;    
+}
+div.nav-links-main>ul{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+}
+div.nav-icons{
+    width: 5%;
+    display: flex;
+    border: 2px solid brown;
+}
+div.flag{
+    width: 50%;
+    border: 2px solid green;
+}
+div.search{
+    width: 50%;
+    border: 2px solid slateblue;
+}
+div.quote{
+    width: 13%;
+    border: 2px solid blue;
+}
+/* end of nav */
+
+div.launch-space{
+    width: 100%;
+    height: 8vh;
+}
+
+/* launch */
+
+div.launch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.launch-box{
+    width: 85%;
+}
+div.launch-box-full{
+    width: 100%;
+    display: flex;
+}
+div.launch-box1{
+    width: 50%;
+}
+div.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+div.content-space{
+    width: 100%;
+    height: 15vh;
+}
+div.launch-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+div.welcome{
+    display: flex;
+    width: 90%;
+    height: 6vh;
+}
+div.sway{
+    width: 30%;
+}
+div.sway>p{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
+div.online{
+    width: 60%;
+}
+div.online>p{
+    background-color: rgba(128, 128, 128, 0.3);
+    color: blueviolet;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    text-align: center;
+    padding: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+div.launch-box2{
+    width: 50%;
+}
+div.launch-image{
+    width: 100%;
+}
+div.launch-image>img{
+    width: 100%;
+}
+div.launch-content>h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.8);
+}
+div.launch-content>p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+div.discover{
+    width: 50%;
+    display: flex;
+    border: 2px solid black;
+}
+div.discover>a{
+    width: 60%;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 8px 0 8px 0;
+    text-decoration: none;
+}
+
+
+
+div.apps{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.companies{
+    width: 85%;
+}
+div.companies-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+div.nike{
+    width: 13%;
+}
+div.nike-img{
+    width: 100%;
+}
+div.nike-img>img{
+    width: 100%;
+    height: 6vh;
+}
+div.spotify{
+    width: 13%;
+}
+div.spotify-img{
+    width: 100%;
+}
+div.spotify-img>img{
+    width: 100%;
+    height: 6vh;
+}
+div.google{
+    width: 13%;
+}
+div.google-img{
+    width: 100%;
+}
+div.google-img>img{
+    width: 100%;
+    height: 6vh;
+}
+div.apple{
+    width: 13%;
+}
+div.apple-img{
+    width: 100%;
+}
+div.apple-img>img{
+    width: 100%;
+    height: 6vh;
+}
+div.amazon{
+    width: 13%;
+}
+div.amazon-img{
+    width: 100%;
+}
+div.amazon-img>img{
+    width: 100%;
+    height: 6vh;
+}
+div.airbnb{
+    width: 13%;
+}
+div.airbnb-img{
+    width: 100%;
+}
+div.airbnb-img>img{
+    width: 100%;
+    height: 6vh;
+}
+
+
+
+
+div.writeup-space{
+    width: 100%;
+    height: 8vh;
+}
+div.writeup-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.write-up{
+    width: 60%;
+    text-align: center;
+}
+p.blue{
+    color: blueviolet;
+}
+
+
+
+
+div.objectives{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.objective-box{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+div.first-obj{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+div.planning{
+    width: 31%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+div.planning-box{
+    width: 70%;
+}
+div.planning-write{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+div.planning-write>a{
+    width: 50%;
+    align-self: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+div.analysis{
+    width: 31%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+div.analysis-box{
+    width: 70%;
+}
+div.analysis-write{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+div.analysis-write>a{
+    width: 50%;
+    align-self: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+div.strategy{
+    width: 31%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+div.strategy-box{
+    width: 70%;
+}
+div.strategy-write{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+div.strategy-write>a{
+    width: 50%;
+    align-self: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+div.second-obj{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+div.keyword{
+    width: 31%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+div.keyword-box{
+    width: 70%;
+}
+div.keyword-write{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+div.keyword-write>a{
+    width: 50%;
+    align-self: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+div.blogging{
+    width: 31%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+div.blogging-box{
+    width: 70%;
+}
+div.blogging-write{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+div.blogging-write>a{
+    width: 50%;
+    align-self: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+div.research{
+    width: 31%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+div.research-box{
+    width: 70%;
+}
+div.research-write{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+div.research-write>a{
+    width: 50%;
+    align-self: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+
+div.nav2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.nav2-links{
+    width: 60%;
+    display: flex;
+}
+div.nav2-links>ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+div.nav2-links>ul>li>a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+div.nav2-links>ul>li>a:hover{
+    color: blueviolet;
+}
+
+/* div.nav-links{
+    width: 75%;
+    display: flex;
+    justify-content: right;
+}
+div.nav-links-main{
+    width: 80%;
+    display: flex;    
+}
+div.nav-links-main>ul{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+} */
+/* div.nav2-links>ul{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+} */
+
+
+div.sect2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.sect2-main{
+    width: 90%;
+    display: flex;
+}
+div.sect2-image{
+    width: 63%;
+}
+div.sect2-image-box{
+    width: 100%;
+}
+div.sect2-image-box>img{
+    width: 100%;
+}
+div.sect2-content{
+    width: 37%;
+}
+div.sect2-box{
+    width: 100%;
+}
+p.team{
+    color: blueviolet;
+}
+div.sect2-box>h2{
+    font-size: 30px;
+}
+div.sect2-box>a{
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    align-self: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+div.sect3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.sect3-main{
+    width: 90%;
+    display: flex;
+}
+div.sect3-content{
+    width: 37%;
+}
+div.sect3-box{
+    width: 100%;
+}
+p.tea{
+    color: blueviolet;
+}
+div.sect3-box>h2{
+    font-size: 30px;
+}
+div.sect3-box>ul{
+    list-style: circle;
+}
+div.sect3-box>a{
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    align-self: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+div.sect3-image{
+    width: 63%;
+}
+div.sect3-image-box{
+    width: 100%;
+}
+div.sect3-image-box>img{
+    width: 100%;
+}
+
+
+div.sect4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.sect4-main{
+    width: 90%;
+    display: flex;
+}
+div.sect4-image{
+    width: 63%;
+}
+div.sect4-image-box{
+    width: 100%;
+}
+div.sect4-image-box>img{
+    width: 100%;
+}
+div.sect4-content{
+    width: 37%;
+}
+div.sect4-box{
+    width: 100%;
+}
+p.teams{
+    color: blueviolet;
+}
+div.sect4-box>h2{
+    font-size: 30px;
+}
+div.sect4-box>a{
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    align-self: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+div.sect5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.quote-box{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+div.quote-content{
+    width: 37%;
+    display: flex;
+}
+div.get-quote{
+    width: 100%;
+}
+p.teas{
+    color: blueviolet;
+}
+div.get-quote>a{
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    align-self: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+div.quote-icons{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+div.quote-icons1{
+    width: 100%;
+    border: 2px solid black;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+div.quote-icons2{
+    width: 100%;
+    border: 2px solid black;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+div.news{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.news-main{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 10vh;
+}
+div.news-box1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* div.news{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div.news-main{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+div.news-box1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+div.box1-write{
+    width: 50%;
+}
+div.visit{
+    width: 13%;
+    justify-self: center;
+    align-self: center;
+}
+div.visit>a{
+    background-color: white;
+    color: blueviolet;
+    align-self: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+div.news-box2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+div.business{
+    width: 32%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+div.business-box{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+div.business-image{
+    width: 100%;
+    padding-top: 5px;
+}
+div.business-image>img{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+div.business-icons{
+    width: 100%;
+    height: 4vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+div.software{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+div.software-box{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+div.software-image{
+    width: 100%;
+    padding-top: 5px;
+}
+div.software-image>img{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+div.software-icons{
+    width: 100%;
+    height: 4vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+div.technology{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+div.technology-box{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+div.technology-image{
+    width: 100%;
+    padding-top: 5px;
+}
+div.technology-image>img{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+div.technology-icons{
+    width: 100%;
+    height: 4vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+div.subs{
+    width: 100%;
+    
+} */
